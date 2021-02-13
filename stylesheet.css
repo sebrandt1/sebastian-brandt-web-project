@@ -1,17 +1,35 @@
 @font-face {
-    font-family: "Lato";
-    src: url("fonts/Lato-Black.ttf") format("truetype");;
+    font-family: 'Lato';
+    src: url('fonts/Lato-Black.ttf') format('truetype');;
 }
+
 body {
-    background-image: url('images/background.jpg');
+    background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: rgba(169, 169, 169, 0.694);
     background-attachment: fixed;
 }
-h1 {
+
+#menucontainer {
+    width: 25%;
+    border: 2px solid rgb(255, 208, 106);
+    word-wrap: break-word;
+    color: rgb(255, 208, 106);
+    text-shadow: 1px 1px black;
+    font-size: 100%;
+    text-align: center;
+    animation: slidefromleft 1s forwards; 
     font-family: 'Lato';
+    background-color: rgba(0, 0, 0, 0.415);
 }
-#headercontainer {
+
+@keyframes slidefromleft {
+    0% { 
+        transform: translateX(-100%);
+    }
+    100% { 
+        transform: translateX(0%);
+    }
 }
