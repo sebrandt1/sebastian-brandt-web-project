@@ -14,6 +14,8 @@ body {
 
 #menucontainer {
     width: 25%;
+    margin: auto;
+    margin-top: 15%;
     border: 2px solid rgb(255, 208, 106);
     word-wrap: break-word;
     color: rgb(255, 208, 106);
@@ -23,6 +25,10 @@ body {
     animation: slidefromleft 1s forwards; 
     font-family: 'Lato';
     background-color: rgba(0, 0, 0, 0.415);
+}
+
+#links {
+    user-select: none;
 }
 
 @keyframes slidefromleft {
