@@ -6,3 +6,7 @@
 * Skapa about-sidan (HTML/CSS)
 * Lägg till relevant information på about-sidan (HTML/CSS)
 * Påbörja implementering av inloggning (JS)
+
+# 2021-02-16 09:08 #
+* Testa Google sign-in
+* Skapa en blank test sida för API "mottagning"
