@@ -33,7 +33,7 @@ body {
 
 #links:hover {
     color: rgb(255, 153, 0);
-    transition: color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 @keyframes slidefromtop {
@@ -44,3 +44,37 @@ body {
         transform: translateY(0%);
     }
 }
+
+#factbtn {
+    margin-bottom: 5%;
+    background-color: rgb(255, 208, 106);
+    border-color: rgb(255, 208, 106);
+    font-family: 'Lato';
+    transition: 0.3s ease;
+}
+
+#factbtn:hover {
+    background-color: rgb(255, 153, 0);
+    border-color: rgb(255, 153, 0);
+}
+
+#factcontainer {
+    width: 40%;
+    margin: auto;
+    margin-top: 15%;
+    border: 2px solid rgb(255, 208, 106);
+    word-wrap: break-word; /* det här är så att orden följer ramen på diven */
+    color: rgb(255, 208, 106);
+    text-shadow: 1px 1px black;
+    font-size: 100%;
+    text-align: center;
+    animation: slidefromtop 1s forwards; 
+    font-family: 'Lato';
+    background-color: rgba(0, 0, 0, 0.415);
+}
+
+#header {
+    width: 100%;
+    margin: auto;
+}
+
