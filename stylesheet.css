@@ -96,6 +96,7 @@ body {
     border-left: 1px solid black;
     line-height: 1em;
     padding: 4px;
+    left: 10%;
 }
 
 #header h2 {
