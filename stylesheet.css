@@ -105,5 +105,43 @@ body {
     bottom: 45%;
 }
 
+#aboutcontent {
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px solid rgb(255, 208, 106);
+    word-wrap: break-word; /* det här är så att orden följer ramen på diven */
+    color: rgb(255, 208, 106);
+    text-shadow: 1px 1px black;
+    font-size: 100%;
+    animation: slidefromtop 1s forwards; 
+    font-family: 'Lato';
+    background-color: rgba(0, 0, 0, 0.415);
+    overflow: hidden;
+}
+
+#textcontainer h1, p {
+    position: sticky;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+#textcontainer h1 {
+    text-decoration: underline;
+}
+
+#photocontainer {
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#catfacturl {
+    color: rgb(255, 153, 0);
+}
+
 
 
