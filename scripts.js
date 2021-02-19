@@ -13,14 +13,10 @@ async function fetchRandomFact() {
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
     googleName = profile.getGivenName();
-    document.getElementById('welcomemsg').innerHTML = googleName;
+    document.getElementById('welcomemsg').innerHTML = "Welcome " + googleName + ",";
 }
 
 function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.disconnect();
-}
-
-function displayGoogleName() {
-    document.getElementById('welcomemsg').innerHTML = googleName;
 }
