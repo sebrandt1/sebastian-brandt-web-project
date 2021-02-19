@@ -121,10 +121,7 @@ body {
 }
 
 #textcontainer h1, p {
-    position: sticky;
     text-align: center;
-    margin-left: 50%;
-    margin-right: 5%;
 }
 #textcontainer h1 {
     text-decoration: underline;
