@@ -1,4 +1,8 @@
-# 2021-02-16 09:08 #
+# 2021-02-19 kl 12:42 #
+* Skriv en kort presentation på about sidan
+* Skirv en kort presentation om själva sidan
+
+# 2021-02-16 kl 09:08 #
 * Testa Google sign-in
 * Skapa en blank test sida för API "mottagning"
 
