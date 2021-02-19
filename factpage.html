@@ -5,9 +5,17 @@
         <link rel="shortcut icon" href="images/catpaw.ico">
         <script src="scripts.js"></script>
     </head>
-    <body>
+    <body onload="fetchRandomFact()">
         <title>Cattify</title>
-        <button id="factbtn" onclick="fetchRandomFact()">Click for random cat fact!</button>
-        <p id="fact">Fact goes here</p>
+        <div id="header">
+            <p id="links" onclick="location.href='#'">Home</p>
+            <p id="links" onclick="location.href='about.html'">About Me</p>
+            <p id="links">Log In</p>
+        </div>
+        <div id="factcontainer">
+            <h1>Did you know...</h1>
+            <p id="fact">Fetching a cat fact...</p>
+            <button id="factbtn" onclick="fetchRandomFact()">Tell me more!</button>
+        </div>
     </body>
 </html>
