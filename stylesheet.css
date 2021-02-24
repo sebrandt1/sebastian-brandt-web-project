@@ -140,6 +140,15 @@ body {
     color: rgb(255, 153, 0);
 }
 
+.g-signin2 {
+    background-color: rgb(255, 208, 106);
+    transition: 0.3s ease;
+}
+
+.g-signin2:hover {
+    background-color: rgb(255, 153, 0);
+}
+
 
 
 
