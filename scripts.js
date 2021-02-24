@@ -13,8 +13,8 @@ async function fetchRandomFact() {
 function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
     googleName = profile.getGivenName();
-    document.getElementById('welcomemsg').innerHTML = "Welcome " + googleName + ",";
     document.getElementById('signOutBtn').style.display = 'block';
+    document.getElementById('welcomemsg').innerHTML = "Welcome " + googleName + ",";
 }
 
 function signOut() {
