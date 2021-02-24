@@ -1,3 +1,6 @@
+# 2021-02-24 kl 14:31 #
+* Implementera en egen google sign-in knapp som erhåller samma design som resten av webbsidan
+
 # 2021-02-19 kl 12:42 #
 * Skriv en kort presentation på about sidan
 * Skirv en kort presentation om själva sidan
