@@ -14,11 +14,17 @@ function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
     googleName = profile.getGivenName();
     document.getElementById('welcomemsg').innerHTML = "Welcome " + googleName + ",";
+    document.getElementById('signOutBtn').style.display = 'block';
 }
 
 function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
     auth2.disconnect();
+    hideSignOutButton();
+}
+
+function hideSignOutButton() {
+    document.getElementById('signOutBtn').style.display = 'none';
 }
 
 function clearGoogleName() {
