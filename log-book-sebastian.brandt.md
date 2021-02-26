@@ -1,3 +1,6 @@
+# 2021-02-26 kl 13:29 #
+* Lägg till information om sidan och vad den gör på landingpagen (ersätt menyn i mitten med detta).
+
 # 2021-02-24 kl 14:31 #
 * Implementera en egen google sign-in knapp som erhåller samma design som resten av webbsidan
 
