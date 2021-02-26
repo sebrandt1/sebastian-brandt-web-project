@@ -13,21 +13,6 @@ body {
     height: 100%;
 }
 
-#menucontainer {
-    width: 25%;
-    margin: auto;
-    margin-top: 15%;
-    border: 2px solid rgb(255, 208, 106);
-    word-wrap: break-word; /* det här är så att orden följer ramen på diven */
-    color: rgb(255, 208, 106);
-    text-shadow: 1px 1px black;
-    font-size: 100%;
-    text-align: center;
-    animation: slidefromtop 1s forwards; 
-    font-family: 'Lato';
-    background-color: rgba(0, 0, 0, 0.415);
-}
-
 #links, #signOutBtn {
     font-family: 'Lato';
     user-select: none;
@@ -60,7 +45,7 @@ body {
     border-color: rgb(255, 153, 0);
 }
 
-#factcontainer {
+#factcontainer, #aboutcontainer {
     width: 40%;
     margin: auto;
     margin-top: 15%;
